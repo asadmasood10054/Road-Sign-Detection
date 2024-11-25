@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['DoNotEnterSign']
+
+roboflow:
+  workspace: bryant-tz5ek
+  project: final-project-2-6hpf2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bryant-tz5ek/final-project-2-6hpf2/dataset/2
